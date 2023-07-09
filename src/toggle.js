@@ -24,7 +24,14 @@ import rupee from './Assets/images/rupee.png'
 import patient from './Assets/images/Patient.png'
 import worldwide from './Assets/images/worldwide.png'
 import vectary from './Assets/images/Vectary.png'
-
+import economic from './Assets/images/economic.png'
+import ENT from './Assets/images/ENT-India-Logo.svg'
+import yourstory from './Assets/images/yourStory.svg'
+import corner from './Assets/images/cornerstone.png'
+import venture from './Assets/images/venture.png'
+import mongo from './Assets/images/MongoDB.png'
+import hunx from './Assets/images/100x.png'
+import aws from './Assets/images/AWS.png'
 
 const Toggle = ({ leftLabel, rightLabel }) => {
     const [toggle, setToggle] = useState(false);
@@ -422,6 +429,10 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                     </div>
                                 </div>
                             </div>
+
+                        </div>
+                        <div className='row mt-3 p-5'>
+
                             <div
                                 className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12"
                                 style={{
@@ -444,48 +455,54 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                             className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
                                             style={{ padding: '3rem' }}
                                         >
-                                            <div
-                                                className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12"
-                                                style={{ textAlign: 'left' }}
-                                            >
-                                                <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '0.5rem' }}>
-                                                    Get started now
-                                                </h1>
-                                            </div>
-                                            <div className="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-12" style={{ marginTop: '2rem' }}>
-                                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12">
-                                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary">
-                                                        For any queries enter your Phone Number and we will get back to you
-                                                    </h6>
-                                                    <div className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" style={{ marginTop: '1.5rem' }}>
-                                                        <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd" style={{ borderRadius: '33px' }}>
-                                                            <input
-                                                                aria-invalid="false"
-                                                                placeholder="Your phone number"
-                                                                type="text"
-                                                                maxLength="10"
-                                                                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
-                                                                value=""
-                                                            />
-                                                            <div>
-                                                                <p
-                                                                    className="MuiTypography-root MuiTypography-body2"
-                                                                    style={{
-                                                                        cursor: 'pointer',
-                                                                        color: 'rgb(255, 255, 255)',
-                                                                        background: 'linear-gradient(128.8deg, rgb(77, 99, 221) 28.61%, rgb(34, 161, 245) 99.07%)',
-                                                                        padding: '0.75rem 1rem',
-                                                                        borderRadius: '29px'
-                                                                    }}
-                                                                >
-                                                                    Connect
-                                                                </p>
+                                            <div className='col-md-6 col-sm-6'>
+
+                                                <div
+                                                    className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12"
+                                                    style={{ textAlign: 'left' }}
+                                                >
+                                                    <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '0.5rem' }}>
+                                                        Get started now
+                                                    </h1>
+                                                </div>
+                                                <div className="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-12" style={{ marginTop: '2rem' }}>
+                                                    <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12">
+                                                        <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary">
+                                                            For any queries enter your Phone Number and we will get back to you
+                                                        </h6>
+                                                        <div className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" style={{ marginTop: '1.5rem' }}>
+                                                            <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd" style={{ borderRadius: '33px' }}>
+                                                                <input
+                                                                    aria-invalid="false"
+                                                                    placeholder="Your phone number"
+                                                                    type="text"
+                                                                    maxLength="10"
+                                                                    className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                                                                    value=""
+                                                                />
+                                                                <div>
+                                                                    <p
+                                                                        className="MuiTypography-root MuiTypography-body2"
+                                                                        style={{
+                                                                            cursor: 'pointer',
+                                                                            color: 'rgb(255, 255, 255)',
+                                                                            background: 'linear-gradient(128.8deg, rgb(77, 99, 221) 28.61%, rgb(34, 161, 245) 99.07%)',
+                                                                            padding: '0.75rem 1rem',
+                                                                            borderRadius: '29px'
+                                                                        }}
+                                                                    >
+                                                                        Connect
+                                                                    </p>
+                                                                </div>
                                                             </div>
-                                                            <fieldset aria-hidden="true" className="jss8 MuiOutlinedInput-notchedOutline" style={{ paddingLeft: '8px' }}>
-                                                                <legend className="jss9" style={{ width: '0.01px' }}>
-                                                                    <span>​</span>
-                                                                </legend>
-                                                            </fieldset>
+                                                            <div className='col-md-6 col-sm-6'>
+
+                                                                <fieldset aria-hidden="true" className="jss8 MuiOutlinedInput-notchedOutline" style={{ paddingLeft: '8px' }}>
+                                                                    <legend className="jss9" style={{ width: '0.01px' }}>
+                                                                        <span>​</span>
+                                                                    </legend>
+                                                                </fieldset>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -514,7 +531,8 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                                             Available on Android & iOS!
                                                         </span>
                                                     </h3>
-                                                    <img src={vectary} alt="Paperplane app" />
+                                                    <img src={vectary} alt="appMockup" style={{ width: '28%', position: 'absolute', top: '-4rem', height: '500px', objectFit: 'contain', right: '-8rem' }}></img>
+                                                    {/* <img src={vectary} alt="Paperplane app" height={'400px'} width={'400px'} /> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -522,6 +540,239 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12" style={{ background: 'linear-gradient(128.8deg, rgb(77, 99, 221) 28.61%, rgb(34, 161, 245) 99.07%)', textAlign: 'center', margin: '5rem 0px', padding: '2rem', borderRadius: '18px' }}>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                                <h1 className="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter" style={{ color: 'white' }}>Watch Paperplane in action 🎬</h1>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-grid-xs-12" style={{ margin: '2rem 0px' }}>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-content-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-12">
+                                    <div className="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center MuiGrid-grid-xs-12">
+                                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                                            <h2 className="MuiTypography-root MuiTypography-h2" style={{ color: 'white', margin: '1rem 0px' }}>View Demo as</h2>
+                                        </div>
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12" style={{ justifyContent: 'center' }}>
+                                            <div className="MuiFormGroup-root MuiFormGroup-row" role="radiogroup" aria-label="gender" style={{ color: 'white', marginBottom: '1rem' }}>
+                                                <label className="MuiFormControlLabel-root">
+                                                    <span className="MuiButtonBase-root MuiIconButton-root jss12 MuiRadio-root MuiRadio-colorSecondary jss13 Mui-checked MuiIconButton-colorSecondary" aria-disabled="false">
+                                                        <span className="MuiIconButton-label">
+                                                            <input className="jss15" name="gender1" type="radio" value="doctor" checked="" />
+                                                            {/* <div className="jss16 jss18">
+                                                                <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                                </svg>
+                                                                <svg className="MuiSvgIcon-root jss17" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                                    <path d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"></path>
+                                                                </svg>
+                                                            </div> */}
+                                                        </span>
+                                                        <span className="MuiTouchRipple-root"></span>
+                                                    </span>
+                                                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Doctor</span>
+                                                </label>
+                                                <label className="MuiFormControlLabel-root">
+                                                    <span className="MuiButtonBase-root MuiIconButton-root jss12 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
+                                                        <span className="MuiIconButton-label">
+                                                            <input className="jss15" name="gender1" type="radio" value="patient" />
+                                                            {/* <div className="jss16">
+                                                                <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                                </svg>
+                                                                <svg className="MuiSvgIcon-root jss17" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                                    <path d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"></path>
+                                                                </svg>
+                                                            </div> */}
+                                                        </span>
+                                                        <span className="MuiTouchRipple-root"></span>
+                                                    </span>
+                                                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Patient</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained" tabIndex="0" type="button" style={{ color: 'white', background: 'rgba(0, 0, 0, 0.4)' }}>
+                                                <span className="MuiButton-label">Launch Demo</span>
+                                                <span className="MuiTouchRipple-root"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8" style={{ marginTop: 0 }}></div>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-justify-content-xs-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" style={{ margin: '2rem 0px' }}>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                                <h1 className="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter">About Us</h1>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-md-6" style={{ marginTop: '2rem' }}>
+                                <h5 className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary MuiTypography-alignCenter">
+                                    At Paperplane we're building Digital Clinics on WhatsApp for Doctors and Hospital to start and scale their medical practice using everyone's favourite messaging app!
+                                </h5>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12" style={{ textAlign: 'center', marginTop: '2rem' }}>
+                                <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', padding: '10px', width: '180px' }}>
+                                    <span className="MuiButton-label text-white ms-3 me-2" style={{ fontWeight: 'bold', fontSize: '25px' }}>Know More</span>
+                                    <span class="MuiTouchRipple-root"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter">As seen on! 📰</h1>
+                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center MuiGrid-grid-xs-12" style={{ margin: '1.5rem 0px' }}>
+                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+
+                                    <img src={yourstory} alt="https://yourstory.com/2022/04/bengaluru-healthtech-startup-paperplane-digital-clinics-whatsapp/amp" style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
+                                    <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
+                                        <span className="MuiIconButton-label">
+                                            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </span>
+                                        <span className="MuiTouchRipple-root"></span>
+                                    </button>
+                                </div>
+                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+                                    <img src={economic} style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
+                                    <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }} >
+                                        <span className="MuiIconButton-label">
+                                            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </span>
+                                        <span className="MuiTouchRipple-root"></span>
+                                    </button>
+                                </div>
+                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+                                    <img src={ENT} alt="https://www.entrepreneur.com/article/423344" style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
+                                    <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
+                                        <span className="MuiIconButton-label">
+                                            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </span>
+                                        <span className="MuiTouchRipple-root"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="MuiGrid-root jss19 MuiGrid-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12" style={{ margin: '2rem 0px 1rem' }}>
+                                <h1 className="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter">Backed by the best! 🤟🏽</h1>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-content-xs-center" style={{ padding: '1rem' }}>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                                    <img src={corner} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                </div>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                                    <img src={hunx} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                </div>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                                    <img src={venture} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                </div>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                                    <img src={aws} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                </div>
+                                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                                    <img src={mongo} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-justify-content-xs-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" style={{ marginTop: '2rem' }}>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-11">
+                                <div style={{ padding: '2rem', background: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', borderRadius: '18px' }}>
+                                    <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-center">
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-align-items-xs-flex-start MuiGrid-grid-xs-12 MuiGrid-grid-md-6">
+                                            <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '0.5rem' }}>Contact Us</h1>
+                                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'inherit', margin: '0.25rem 0px' }}>
+                                                <svg className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style={{ paddingRight: '0.5rem' }}>
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                                                </svg>
+                                                <a href="mailto:support@paperplanetech.co" style={{ textDecoration: 'none' }}>
+                                                    <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary">support@paperplanetech.co</p>
+                                                </a>
+                                            </div>
+                                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'inherit', margin: '0.25rem 0px' }}>
+                                                <svg className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style={{ paddingRight: '0.5rem' }}>
+                                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+                                                </svg>
+                                                <a href="tel:+91 9140827602" style={{ textDecoration: 'none' }}>
+                                                    <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary">+91 9140827602</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-content-xs-flex-end MuiGrid-grid-xs-12 MuiGrid-grid-md-5">
+                                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12">
+                                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary">For any queries enter your Phone Number and we will get back to you</h6>
+                                                <div className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" style={{ marginTop: '1.5rem' }}>
+                                                    <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd" style={{ borderRadius: '33px' }}>
+                                                        <input aria-invalid="false" placeholder="Your phone number" type="text" maxLength="10" className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" value="" />
+                                                        <div>
+                                                            <p className="MuiTypography-root MuiTypography-body2" style={{ cursor: 'pointer', color: 'rgb(255, 255, 255)', background: 'linear-gradient(128.8deg, rgb(77, 99, 221) 28.61%, rgb(34, 161, 245) 99.07%)', padding: '0.75rem 1rem', borderRadius: '29px' }}>Connect</p>
+                                                        </div>
+                                                        <fieldset aria-hidden="true" className="jss8 MuiOutlinedInput-notchedOutline" style={{ paddingLeft: '8px' }}>
+                                                            <legend className="jss9" style={{ width: '0.01px' }}>
+                                                                <span>​</span>
+                                                            </legend>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
+                            <h1 className="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter" style={{ margin: '1rem 0px' }}>Frequently asked questions</h1>
+                            <div className="MuiGrid-root MuiGrid-item aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-delay="50" style={{ width: '100%' }}>
+                                <div className="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded" style={{ background: 'rgb(255, 255, 255)', border: '1px solid rgb(227, 227, 227)', padding: '1rem', margin: '0.5rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 10px', borderRadius: '14px' }}>
+                                    <div className="MuiButtonBase-root MuiAccordionSummary-root" tabIndex="0" role="button" aria-disabled="false" aria-expanded="false" aria-controls="panel1a-content" id="panel1a-header">
+                                        <div className="MuiAccordionSummary-content">
+                                            <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorInherit">How are we different from other Healthcare providers?</p>
+                                        </div>
+                                        <div className="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd" aria-disabled="false" aria-hidden="true">
+                                            <span className="MuiIconButton-label">
+                                                <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path d="M7 10l5 5 5-5z"></path>
+                                                </svg>
+                                            </span>
+                                            <span className="MuiTouchRipple-root"></span>
+                                        </div>
+                                    </div>
+                                    <div className="MuiCollapse-root MuiCollapse-hidden" style={{ minHeight: '0px' }}>
+                                        <div className="MuiCollapse-wrapper">
+                                            <div className="MuiCollapse-wrapperInner">
+                                                <div aria-labelledby="panel1a-header" id="panel1a-content" role="region">
+                                                    <div className="MuiAccordionDetails-root">
+                                                        <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary">Paperplane is a healthcare platform with an integrated EMR solution completely built on Top of Whatsapp that enables doctors to connect with their patients on their favorite messaging app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="MuiGrid-root MuiGrid-item aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-delay="50" style={{ width: '100%' }}>
+                                <div className="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded" style={{ background: 'rgb(255, 255, 255)', border: '1px solid rgb(227, 227, 227)', padding: '1rem', margin: '0.5rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 10px', borderRadius: '14px' }}>
+                                    <div className="MuiButtonBase-root MuiAccordionSummary-root" tabIndex="0" role="button" aria-disabled="false" aria-expanded="false" aria-controls="panel1a-content" id="panel1a-header">
+                                        <div className="MuiAccordionSummary-content">
+                                            <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorInherit">How will I be getting new patients via Paperplane?</p>
+                                        </div>
+                                        <div className="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd" aria-disabled="false" aria-hidden="true">
+                                            <span className="MuiIconButton-label">
+                                                <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path d="M7 10l5 5 5-5z"></path>
+                                                </svg>
+                                            </span>
+                                            <span className="MuiTouchRipple-root"></span>
+                                        </div>
+                                    </div>
+                                    <div className="MuiCollapse-root MuiCollapse-hidden" style={{ minHeight: '0px' }}>
+                                        <div className="MuiCollapse-wrapper">
+                                            <div className="MuiCollapse-wrapperInner">
+                                                <div aria-labelledby="panel1a-header" id="panel1a-content" role="region">
+                                                    <div className="MuiAccordionDetails-root">
+                                                        <p className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary">Paperplane offers the doctor, the ability to establish their own brand and attract new patients via a variety of channels, including their website, organic search results on Google Search (Via Google My Business), advertisements on a variety of social media platforms, along with WhatsApp Marketing</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
                     </div>
                 </div>
             ) : (

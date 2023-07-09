@@ -58,7 +58,7 @@
 
 .MuiTypography-h1 {
     font-size: 32px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-weight: bold;
     line-height: 54px;
 }
@@ -151,7 +151,7 @@
 
 .MuiTypography-h4 {
     font-size: 25px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-weight: 300;
     line-height: 43px;
 }
@@ -372,6 +372,97 @@
     pointer-events: none;
 }
 
+.MuiOutlinedInput-adornedEnd {
+    padding-right: 14px;
+}
+
+.MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 4px;
+}
+
+.MuiInputBase-fullWidth {
+    width: 100%;
+}
+
+.MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.1876em;
+}
+
+.MuiOutlinedInput-inputAdornedEnd {
+    padding-right: 0;
+}
+
+.MuiOutlinedInput-input {
+    padding: 18.5px 14px;
+}
+
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.MuiTypography-h1 {
+    font-size: 32px;
+    /* font-family: Montserrat; */
+    font-weight: bold;
+    line-height: 54px;
+}
+
+.jss17 {
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: transform 150ms cubic-bezier(0.4, 0, 1, 1) 0ms;
+}
+
+.jss16.jss18 .jss17 {
+    transform: scale(1);
+    transition: transform 150ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.jss15 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: inherit;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.jss17 {
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: transform 150ms cubic-bezier(0.4, 0, 1, 1) 0ms;
+}
+
 @media (min-width: 1000px) {
     .MuiGrid-grid-md-3 {
         flex-grow: 0;
@@ -405,6 +496,7 @@
 
 }
 
+
 @media (min-width: 1000px) {
     .MuiGrid-grid-md-4 {
         flex-grow: 0;
@@ -417,5 +509,19 @@
     .MuiTypography-h6 {
         font-size: 13px;
         line-height: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .MuiGrid-grid-md-6 {
+        flex-grow: 0;
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    .MuiGrid-grid-md-12 {
+        flex-grow: 0;
+        max-width: 100%;
+        flex-basis: 100%;
     }
 }
