@@ -6,7 +6,7 @@ export default function Blogs() {
 
         <div>
             <div>
-                <h1 className=' text-center' style={{ marginTop: '200px' }}>Blogs</h1>
+                <h1 className=' text-center' >Blogs</h1>
                 <p className=' text-center' style={{ fontSize: '25px', letterSpacing: '2px' }}>Grow your medical practice with guides & articles from the best in business</p>
             </div>
             <div class="row mb-5 mt-5">

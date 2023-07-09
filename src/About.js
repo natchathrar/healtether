@@ -1,7 +1,7 @@
 import React from 'react';
 import GPhoto from './Assets/images/groupimg.png';
 import { FiSearch, FiUser } from 'react-icons/fi';
-// import './About.css';
+import './About.css';
 import { TiSocialFacebookCircular, TiSocialInstagram, TiSocialInstagramCircular, TiSocialLinkedinCircular, TiSocialTwitterCircular } from "react-icons/ti";
 import person1 from './Assets/images/person1.svg'
 import person2 from './Assets/images/person2.svg'
@@ -15,7 +15,7 @@ function About() {
     return (
         <div>
 
-            <div className='centerformation text-center'>
+            <div className='centerformation text-center ' style={{ marginTop: '150px' }}>
                 <div className=' mt-5'>
                     <div className='text-center'>
                         <h1 className='text-decoration-underlines  '>Our Vision. <span className='text-primary'>Our Mission</span></h1>
