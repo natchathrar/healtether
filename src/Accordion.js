@@ -12,7 +12,7 @@ const Accordion = ({ question, answer }) => {
       <div className={`MuiAccordionSummary-root ${expanded ? 'Mui-expanded' : ''}`} onClick={toggleAccordion}>
         <div className="MuiAccordionSummary-content">
           <p className={`MuiTypography-root MuiTypography-body1 MuiTypography-colorInherit ${expanded ? 'Mui-expanded-question' : ''}`} style={{ marginBottom: '0', display: 'inline' }}>{question}</p>
-          <span style={{  marginLeft: '1rem' }}>
+          <span style={{ marginLeft: '1rem' }}>
             {expanded ? (
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ transform: 'rotate(180deg)', transition: 'transform 0.3s' }}>
                 <path d="M7 10l5 5 5-5z" />
@@ -66,3 +66,4 @@ const FAQAccordion = () => {
 };
 
 export default FAQAccordion;
+

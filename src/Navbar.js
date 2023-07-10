@@ -32,9 +32,10 @@ export default function Navbar() {
                                     <Link to='/blogs' className='nav-link text-decoration-none'>Blogs</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">ABHA
+
+                                    <Link className="nav-link" to='/abha'>ABHA
                                         <p class="MuiTypography-root MuiTypography-body1" style={{ backgroundColor: 'red', position: 'absolute', padding: '0px 0.5rem', borderRadius: '18px', right: '31rem', top: '1rem', fontSize: '11px', color: 'white', width: 'fit-content' }}>New</p>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/about' className='nav-link text-decoration-none'>About Us</Link>
@@ -42,8 +43,8 @@ export default function Navbar() {
                                 </li>
                             </ul>
                             <div className="d-flex align-items-center">
-                                <button className="btn btn-primary me-2" style={{ borderRadius: '80px', backgroundImage: 'linear-gradient(to right, rgb(38 93 38), rgb(31 198 31))', width: '150px' }}>Download App</button>
-                                <button className="btn btn-outline-primary" style={{ borderRadius: '80px', width: '100px' }}>Login</button>
+                                <button className="btn text-white  me-2" style={{ borderRadius: '80px', backgroundImage: 'linear-gradient(to right, rgb(38 93 38), rgb(31 198 31))', width: '150px' }} href='https://play.google.com/store/apps/details?id=paperplane.health.app&hl=en_GB&gl=IN'>Download App</button>
+                                <button className="btn text-primary border-primary" style={{ borderRadius: '80px', width: '100px' }}>Login</button>
                             </div>
                         </div>
                     </div>

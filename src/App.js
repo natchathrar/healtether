@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import About from "./About";
+import ABHA from "./ABHA";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
+          <Route path="/abha" element={<ABHA />} />
         </Routes>
         <Footer />
       </Router>

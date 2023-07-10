@@ -62,11 +62,11 @@ export default function Home() {
                     </div>
                     <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-flex-start MuiGrid-grid-xs-12" style={{ justifyContent: 'flex-start', marginTop: '3rem' }}>
                         <div className="MuiGrid-root MuiGrid-item">
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary p-2" tabindex="0" type="button" >
+                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary p-2" tabIndex="0" type="button" >
                                 <span className="MuiButton-label text-white ms-3 me-3 p-2" style={{ fontWeight: 'bold' }}>Start 15-days trial now</span>
                                 <span className="MuiTouchRipple-root"></span></button><p className="MuiTypography-root MuiTypography-body1" style={{ marginTop: '0.5rem', marginLeft: '1.4rem' }}>Takes less than 60s ⚡</p></div>
                         <div className="MuiGrid-root MuiGrid-item">
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary btn border-success p-2" tabindex="0" type="button" style={{ marginLeft: '1rem', marginTop: '0px', borderRadius: '50px' }}>
+                            <button className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary btn border-success p-2" tabIndex="0" type="button" style={{ marginLeft: '1rem', marginTop: '0px', borderRadius: '50px' }}>
                                 <span className="MuiButton-label text-success ms-3 me-2 p-2" style={{ fontWeight: 'bold', fontSize: '25px' }}>Book a demo</span><span className="MuiTouchRipple-root"></span></button></div></div>
                 </div>
                 <div className='col-sm-6 col-md-6'>
