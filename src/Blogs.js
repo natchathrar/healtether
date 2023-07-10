@@ -26,7 +26,7 @@ export default function Blogs() {
                         }}>How to set up your digital clinic in 7 minutes?</p>
                     </div>
                     <div className=''>
-                        <button className='btn btn-outline-success mt-5 fs-4 p-3' style={{ borderRadius: '20px', textAlign: 'center' }}>Read More</button>
+                        <button className='btn text-success border-success mt-5 fs-4 p-3' style={{ borderRadius: '20px', textAlign: 'center' }}>Read More</button>
                     </div>
                 </div>
                 {/* </div> */}
@@ -38,13 +38,13 @@ export default function Blogs() {
                             alt="" class="" height={'100px'} width={'170px'} />
                     </div>
                     <div >
-                        <p className='mt-4' style={{
+                        <p className='mt-1' style={{
                             fontSize: '28px',
                             fontWeight: '350', lineHeight: '43px', letterSpacing: '1px'
                         }}>How to set up your Google Business Profile (GMB) for your clinic ?</p>
                     </div>
                     <div className='text-center'>
-                        <button className='btn btn-outline-success fs-4 p-3 mt-3 mb-2' style={{ borderRadius: '20px', textAlign: 'center' }}>Read More</button>
+                        <button className='btn text-success fs-4 p-3 mt-3 mb-2 border-success' style={{ borderRadius: '20px', textAlign: 'center' }}>Read More</button>
                     </div>
                 </div>
                 {/* </div> */}
