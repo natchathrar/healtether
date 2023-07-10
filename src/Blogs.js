@@ -12,7 +12,7 @@ export default function Blogs() {
             <div class="row mb-5 mt-5">
                 <div class="col-md-4"></div>
                 {/* <div class=" col-md-4 mt-3 col-sm-10"> */}
-                <div class="card p-4" style={{ maxWidth: '230px', height: '100vh' }}>
+                <div class="card p-4" style={{ maxWidth: '230px' }}>
                     <div className='d-flex justify-content-center'>
                         <img
                             src='https://www.paperplanetech.co/static/media/thumbnail1.a73053b54f875cdb7d19.png'
