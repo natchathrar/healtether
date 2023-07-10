@@ -26,7 +26,7 @@ export default function Navbar() {
                                         <p class="MuiTypography-root MuiTypography-body1" style={{ backgroundColor: 'red', position: 'absolute', padding: '0px 0.5rem', borderRadius: '18px', right: '45rem', top: '1rem', fontSize: '11px', color: 'white', width: 'fit-content' }}>New</p></a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Videos</a>
+                                    <a className="nav-link" href="https://www.youtube.com/channel/UCCIs3vb1mC15PrdPQBwgdjQ" target="_blank">Videos</a>
                                 </li><li className="nav-item">
                                     {/* <a className="nav-link" href="">Blogs</a> */}
                                     <Link to='/blogs' className='nav-link text-decoration-none'>Blogs</Link>
