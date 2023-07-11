@@ -22,8 +22,8 @@ export default function Navbar() {
                                     <Link to='/' className='nav-link text-decoration-none'>Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Buy Now Pay Later
-                                        <p class="MuiTypography-root MuiTypography-body1" style={{ backgroundColor: 'red', position: 'absolute', padding: '0px 0.5rem', borderRadius: '18px', right: '45rem', top: '1rem', fontSize: '11px', color: 'white', width: 'fit-content' }}>New</p></a>
+                                    <Link to='/bnpl' className='nav-link'>Buy Now Pay Later
+                                        <p class="MuiTypography-root MuiTypography-body1" style={{ backgroundColor: 'red', position: 'absolute', padding: '0px 0.5rem', borderRadius: '18px', right: '45rem', top: '1rem', fontSize: '11px', color: 'white', width: 'fit-content' }}>New</p></Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="https://www.youtube.com/channel/UCCIs3vb1mC15PrdPQBwgdjQ" target="_blank">Videos</a>
@@ -43,8 +43,17 @@ export default function Navbar() {
                                 </li>
                             </ul>
                             <div className="d-flex align-items-center">
-                                <button className="btn text-white  me-2" style={{ borderRadius: '80px', backgroundImage: 'linear-gradient(to right, rgb(38 93 38), rgb(31 198 31))', width: '150px' }} href='https://play.google.com/store/apps/details?id=paperplane.health.app&hl=en_GB&gl=IN'>Download App</button>
-                                <button className="btn text-primary border-primary" style={{ borderRadius: '80px', width: '100px' }}>Login</button>
+                                <button
+                                    className="btn text-white me-2"
+                                    style={{ borderRadius: '80px', backgroundImage: 'linear-gradient(to right, rgb(38 93 38), rgb(31 198 31))', width: '150px' }}
+                                    onClick={() => window.open('https://play.google.com/store/apps/details?id=paperplane.health.app&hl=en_GB&gl=IN', '_blank')}
+                                >
+                                    Download App
+                                </button>
+
+                                <button className="btn text-primary border-primary" style={{ borderRadius: '80px', width: '100px' }}>
+                                    <a href="/login" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>Login</a>
+                                </button>
                             </div>
                         </div>
                     </div>

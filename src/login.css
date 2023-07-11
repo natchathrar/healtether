@@ -1,0 +1,112 @@
+@media (min-width: 768px) {
+    .col-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .display-2 {
+        font-size: calc(1.4rem + 1.8vw);
+    }
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: #5e72e4;
+    border-color: #5e72e4;
+    color: #fff;
+}
+
+.btn-primary {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+/* .MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+} */
+
+/* .MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+} */
+
+.input-group {
+    margin-bottom: 1.25em;
+}
+
+input[type="text"],
+input[type="password"] {
+    -webkit-appearance: none;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    height: auto;
+    padding: .5em;
+
+}
+
+/* suppress IE >= 10 native functionality that can show password */
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.btn {
+    margin-top: 1.75em;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    color: #337ab7;
+    /*display: none;*/
+    /*font-size: .9em;*/
+    font-weight: 600;
+    /*padding: .5em;*/
+    position: absolute;
+    right: .75em;
+    top: 1em;
+    z-index: 9;
+}
+
+
+
+
+
+.fa {
+    font-size: 2rem;
+}

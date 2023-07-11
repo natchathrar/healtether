@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Toggle from './toggle';
+import rocket from './Assets/images/rocket.png'
 
 
 export default function Home() {
@@ -58,16 +59,16 @@ export default function Home() {
                             <span style={{
                                 color: 'rgb(25, 188, 204)',
 
-                            }}>in less than 7 minutes!</span><img src='https://t1.gstatic.com/images?q=tbn:ANd9GcSXISfuJVOjBEZfgaxY_fr9cGUUWKRDStZW1aeRK9JLbi3oOcJR' style={{ height: '40px', width: '40px' }} className='ms-2' /></h1>
+                            }}>in less than 7 minutes!</span><img src={rocket} style={{ height: '40px', width: '40px' }} className='ms-2' /></h1>
                     </div>
                     <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-flex-start MuiGrid-grid-xs-12" style={{ justifyContent: 'flex-start', marginTop: '3rem' }}>
                         <div className="MuiGrid-root MuiGrid-item">
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary p-2" tabIndex="0" type="button" >
-                                <span className="MuiButton-label text-white ms-3 me-3 p-2" style={{ fontWeight: 'bold' }}>Start 15-days trial now</span>
+                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary p-2" tabIndex="0" type="button" style={{ width: '300px', fontSize: '25px' }} >
+                                <span className="MuiButton-label text-white me-3" style={{ fontWeight: 'bold' }}>Start 15-days trial now</span>
                                 <span className="MuiTouchRipple-root"></span></button><p className="MuiTypography-root MuiTypography-body1" style={{ marginTop: '0.5rem', marginLeft: '1.4rem' }}>Takes less than 60s ⚡</p></div>
                         <div className="MuiGrid-root MuiGrid-item">
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary btn border-success p-2" tabIndex="0" type="button" style={{ marginLeft: '1rem', marginTop: '0px', borderRadius: '50px' }}>
-                                <span className="MuiButton-label text-success ms-3 me-2 p-2" style={{ fontWeight: 'bold', fontSize: '25px' }}>Book a demo</span><span className="MuiTouchRipple-root"></span></button></div></div>
+                            <button className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary btn border-success p-2" tabIndex="0" type="button" style={{ marginLeft: '1rem', marginTop: '0px', width: '200px', borderRadius: '50px' }}>
+                                <span className="MuiButton-label text-success me-2" style={{ fontWeight: 'bold', fontSize: '25px' }}>Book a demo</span><span className="MuiTouchRipple-root"></span></button></div></div>
                 </div>
                 <div className='col-sm-6 col-md-6'>
                     <img className='imgstyle' src='https://www.paperplanetech.co/static/media/hero-image.2f231d9891424705d6d5129e181acf92.svg' alt='alter' />

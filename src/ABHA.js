@@ -6,6 +6,7 @@ import sign from './Assets/images/sign.png'
 import card from './Assets/images/abhaCard.png'
 import ablogo from './Assets/images/abdmLogo.png'
 import icons from './Assets/images/abhaF icons.png'
+import './switch.css'
 
 export default function ABHA() {
     return (
@@ -48,7 +49,43 @@ export default function ABHA() {
                     </div>
                 </div>
             </div>
-            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 mt-5" style={{ margin: '3rem 0px', padding: '1rem', background: 'rgb(243, 243, 243)', borderRadius: '28px', width: "80%" }}>
+            <div style={{ padding: '3% 8%' }} className='d-flex flex-row'>
+
+                <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12" style={{ margin: '3rem 0px', padding: '1rem', background: 'rgb(243, 243, 243)', borderRadius: '28px' }}>
+                    <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                        <h2 className="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter" style={{ fontWeight: '700' }}>Benefits of ABHA number</h2>
+                    </div>
+                    <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-baseline MuiGrid-grid-xs-12" style={{ marginTop: '2rem' }}>
+                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ padding: '1rem 6rem', textAlign: 'center' }}>
+                            <img src={iD} style={{ width: '80px', height: '80px', objectFit: 'contain' }} />
+                            <h5 className="MuiTypography-root MuiTypography-h5" style={{ marginTop: '1rem', fontWeight: '600' }}>Under 1 Minute approval</h5>
+                            <h6 className="MuiTypography-root MuiTypography-h6" style={{ marginTop: '1rem' }}>By putting your health ahead of paperwork and logistics</h6>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ padding: '1rem 6rem', textAlign: 'center' }}>
+                            <img src={folder} style={{ width: '80px', height: '80px', objectFit: 'contain' }} />
+                            <h5 className="MuiTypography-root MuiTypography-h5" style={{ marginTop: '1rem', fontWeight: '600' }}>Repayments via WhatsApp</h5>
+                            <h6 className="MuiTypography-root MuiTypography-h6" style={{ marginTop: '1rem' }}>Pay securely via WhatsApp without downloading or using any application</h6>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ padding: '1rem 6rem', textAlign: 'center' }}>
+                            <img src={access} style={{ width: '80px', height: '80px', objectFit: 'contain' }} />
+                            <h5 className="MuiTypography-root MuiTypography-h5" style={{ marginTop: '1rem', fontWeight: '600' }}>Flexible Payment Tenure</h5>
+                            <h6 className="MuiTypography-root MuiTypography-h6" style={{ marginTop: '1rem' }}>Now you decide when and how much to pay in installments</h6>
+                        </div>
+                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ padding: '1rem 6rem', textAlign: 'center' }}>
+                            <img src={sign} style={{ width: '80px', height: '80px', objectFit: 'contain' }} />
+                            <h5 className="MuiTypography-root MuiTypography-h5" style={{ marginTop: '1rem', fontWeight: '600' }}>No Third-party intervention</h5>
+                            <h6 className="MuiTypography-root MuiTypography-h6" style={{ marginTop: '1rem' }}>Seamless transaction through Paperplane</h6>
+                        </div>
+                    </div>
+                    <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12" style={{ textAlign: 'center' }}>
+                        <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text btn" tabIndex="0" type="button"
+                            style={{ background: 'rgb(117, 191, 99)', color: 'white', fontFamily: 'Inter', marginTop: '1rem', padding: '0.5rem 1rem', borderRadius: '25px', fontSize: '23px', fontWeight: 'lighter' }}><span
+                                className="MuiButton-label">Create abha id now &gt;</span><span
+                                    className="MuiTouchRipple-root"></span></button>
+                    </div>
+                </div></div>
+            {/* <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 mt-5" style={{ margin: '3rem 0px', padding: '1rem', background: 'rgb(243, 243, 243)', borderRadius: '28px', width: "80%" }}>
                 <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
                     <h2 className="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter" style={{ fontWeight: '700', justifyContent: 'center', display: 'flex' }}>Benefits of ABHA number</h2>
                 </div>
@@ -75,12 +112,13 @@ export default function ABHA() {
                     </div>
                 </div>
                 <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12" style={{ textAlign: 'center' }}>
-                    <button className="MuiButtonBase-root MuiButton-root MuiButton-text" tabIndex="0" type="button" style={{ background: 'rgb(117, 191, 99)', color: 'white', fontFamily: 'Inter', marginTop: '1rem', padding: '0.5rem 1rem' }}>
-                        <span className="MuiButton-label">Create abha id now &gt;</span>
-                        <span className="MuiTouchRipple-root"></span>
-                    </button>
+                    <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-text btn" tabIndex="0" type="button"
+                        style={{ background: 'rgb(117, 191, 99)', color: 'white', fontFamily: 'Inter', marginTop: '1rem', padding: '0.5rem 1rem', borderRadius: '25px', fontSize: '23px', fontWeight: 'lighter' }}><span
+                            className="MuiButton-label">Create abha id now &gt;</span><span
+                                className="MuiTouchRipple-root"></span></button>
                 </div>
-            </div>
+            </div> */}
         </div >
     )
 }

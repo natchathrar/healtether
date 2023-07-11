@@ -442,7 +442,7 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                             </div>
 
                         </div>
-                        <div className='row mt-3 p-5'>
+                        {/* <div className='row mt-3 p-5'>
 
                             <div
                                 style={{
@@ -508,12 +508,52 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                                     The Paperplane app is now <br /><span>Available on Android &amp; iOS!</span>
                                                 </h3>
                                                 <img
-                                                    src="/static/media/Vectary.e21295fe27bde8d62a73.png"
+                                                    src={vectary}
                                                     alt="appMockup"
                                                     style={{ width: '100%', height: 'auto', marginTop: '2rem' }}
                                                 />
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12" style={{ height: "100vh", display: "flex", alignItems: "center", margin: "0px 8% 0px 0px" }}>
+                            <div style={{ background: "rgb(255, 255, 255)", boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 20px", borderRadius: "18px", position: "relative" }}>
+                                <div className="MuiGrid-root MuiGrid-container">
+                                    <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ padding: "3rem" }}>
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12" style={{ textAlign: "left" }}>
+                                            <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: "0.5rem" }}>Get started now</h1>
+                                        </div>
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-12" style={{ marginTop: "2rem" }}>
+                                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12">
+                                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary">For any queries enter your Phone Number and we will get back to you</h6>
+                                                <div className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" style={{ marginTop: "1.5rem" }}>
+                                                    <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd" style={{ borderRadius: "33px" }}>
+                                                        <input aria-invalid="false" placeholder="Your phone number" type="text" maxLength="10" className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" value="" />
+                                                        <div>
+                                                            <p className="MuiTypography-root MuiTypography-body2" style={{ cursor: "pointer", color: "rgb(255, 255, 255)", background: "linear-gradient(128.8deg, rgb(77, 99, 221) 28.61%, rgb(34, 161, 245) 99.07%)", padding: "0.75rem 1rem", borderRadius: "29px" }}>Connect</p>
+                                                        </div>
+                                                        <fieldset aria-hidden="true" className="jss76 MuiOutlinedInput-notchedOutline" style={{ paddingLeft: "8px" }}>
+                                                            <legend className="jss77" style={{ width: "0.01px" }}><span>​</span></legend>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-6" style={{ background: "rgb(255, 255, 255)", borderRadius: "0px", marginTop: "0px" }}>
+                                        <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-grid-xs-7 MuiGrid-grid-md-12" style={{ background: "rgb(77, 99, 221)", height: "100%", padding: "0px 0px 0px 8rem" }}>
+                                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7">
+                                                <h3 className="MuiTypography-root MuiTypography-h3" style={{ color: "rgba(255, 255, 255, 0.85)", zIndex: "200", lineHeight: "inherit", fontWeight: "normal" }}>
+                                                    The Paperplane app is now <br />
+                                                    <span style={{ fontWeight: "700", color: "rgb(255, 255, 255)", paddingTop: "2rem" }}>Available on Android &amp; iOS!</span>
+                                                </h3>
+                                                <img src="https://link.paperplanetech.co/app" alt="" style={{ cursor: "pointer", height: "40px", objectFit: "contain", marginTop: "2rem", marginLeft: "-0.5rem" }} />
+                                                <img src="https://link.paperplanetech.co/app" alt="" style={{ cursor: "pointer", height: "40px", objectFit: "contain", marginTop: "2rem", marginLeft: "0.5rem" }} />
+                                            </div>
+                                        </div>
+                                        <img src={vectary} alt="appMockup" style={{ width: "28%", position: "absolute", top: "-4rem", height: "500px", objectFit: "contain", right: "-5rem" }} />
                                     </div>
                                 </div>
                             </div>

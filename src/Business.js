@@ -81,30 +81,32 @@ function Business() {
                         </div>
 
                     </div>
-                    <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
-                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'left' }}>
-                            <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '2rem', fontWeight: 700 }}>
-                                Provide seamless patient experience &amp;
-                                <span style={{ backgroundImage: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', backgroundPosition: 'initial', backgroundSize: 'initial', backgroundRepeat: 'initial', backgroundAttachment: 'initial', backgroundOrigin: 'initial', backgroundColor: 'initial', color: 'white', padding: '0.3rem', borderRadius: '4px', marginLeft: '0.5rem' }}>
-                                    improve retention
-                                </span>
-                            </h1>
-                            <div className="MuiGrid-root MuiGrid-item" style={{ textAlign: 'left' }}>
-                                <h5 className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary">
-                                    <ul style={{ display: 'flex', flexDirection: 'column', rowGap: '12px', paddingInlineStart: '1.5rem' }}>
-                                        <li>Send E-Rx along with<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>medicine &amp; follow-up</span>reminders</li>
-                                        <li>Collect<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>medical data</span></li>
-                                        <li>Receive<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>online payments</span></li>
-                                    </ul>
-                                </h5>
+                    <div className='row p-3'>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'left' }}>
+                                <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '2rem', fontWeight: 700 }}>
+                                    Provide seamless patient experience &amp;
+                                    <span style={{ backgroundImage: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', backgroundPosition: 'initial', backgroundSize: 'initial', backgroundRepeat: 'initial', backgroundAttachment: 'initial', backgroundOrigin: 'initial', backgroundColor: 'initial', color: 'white', padding: '0.3rem', borderRadius: '4px', marginLeft: '0.5rem' }}>
+                                        improve retention
+                                    </span>
+                                </h1>
+                                <div className="MuiGrid-root MuiGrid-item" style={{ textAlign: 'left' }}>
+                                    <h5 className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary">
+                                        <ul style={{ display: 'flex', flexDirection: 'column', rowGap: '12px', paddingInlineStart: '1.5rem' }}>
+                                            <li>Send E-Rx along with<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>medicine &amp; follow-up</span>reminders</li>
+                                            <li>Collect<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>medical data</span></li>
+                                            <li>Receive<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>online payments</span></li>
+                                        </ul>
+                                    </h5>
+                                </div>
+                                <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', width: '200px' }}>
+                                    <span className="MuiButton-label text-white p-2">Book a demo</span>
+                                    <span className="MuiTouchRipple-root"></span>
+                                </button>
                             </div>
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', width: '200px' }}>
-                                <span className="MuiButton-label text-white p-2">Book a demo</span>
-                                <span className="MuiTouchRipple-root"></span>
-                            </button>
-                        </div>
-                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'right' }}>
-                            <img src={prescription} alt="[object Object]" style={{ objectFit: 'contain', width: '90%' }} />
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'right' }}>
+                                <img src={prescription} alt="[object Object]" style={{ objectFit: 'contain', width: '90%' }} />
+                            </div>
                         </div>
                     </div>
                     <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
@@ -183,30 +185,32 @@ function Business() {
                             </button>
                         </div>
                     </div>
-                    <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
-                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'left' }}>
-                            <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '2rem', fontWeight: 700 }}>
-                                <span style={{ background: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', color: 'white', padding: '0.3rem', borderRadius: '4px' }}>
-                                    Manage multiple locations
-                                </span>
-                                and profiles on a single platform
-                            </h1>
-                            <div className="MuiGrid-root MuiGrid-item" style={{ textAlign: 'left' }}>
-                                <h5 className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary">
-                                    <ul style={{ display: 'flex', flexDirection: 'column', rowGap: '12px', paddingInlineStart: '1.5rem' }}>
-                                        <li>Manage<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>multiple doctors</span></li>
-                                        <li>Provide selective access to<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>staff members</span>reminders</li>
-                                        <li>Manage<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>multiple locations</span>from one single app</li>
-                                    </ul>
-                                </h5>
+                    <div className='row p-3'>
+                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'left' }}>
+                                <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '2rem', fontWeight: 700 }}>
+                                    <span style={{ background: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', color: 'white', padding: '0.3rem', borderRadius: '4px' }}>
+                                        Manage multiple locations
+                                    </span>
+                                    and profiles on a single platform
+                                </h1>
+                                <div className="MuiGrid-root MuiGrid-item" style={{ textAlign: 'left' }}>
+                                    <h5 className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary">
+                                        <ul style={{ display: 'flex', flexDirection: 'column', rowGap: '12px', paddingInlineStart: '1.5rem' }}>
+                                            <li>Manage<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>multiple doctors</span></li>
+                                            <li>Provide selective access to<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>staff members</span>reminders</li>
+                                            <li>Manage<span style={{ color: 'rgb(77, 99, 221)', margin: '0px 0.3rem' }}>multiple locations</span>from one single app</li>
+                                        </ul>
+                                    </h5>
+                                </div>
+                                <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', width: '200px' }}>
+                                    <span className="MuiButton-label text-white p-2">Book a demo</span>
+                                    <span className="MuiTouchRipple-root"></span>
+                                </button>
                             </div>
-                            <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', width: '200px' }}>
-                                <span className="MuiButton-label text-white p-2">Book a demo</span>
-                                <span className="MuiTouchRipple-root"></span>
-                            </button>
-                        </div>
-                        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'right' }}>
-                            <img src={group4} alt="[object Object]" style={{ objectFit: 'contain', width: '90%' }} />
+                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="200" data-aos-once="true" style={{ textAlign: 'right' }}>
+                                <img src={group4} alt="[object Object]" style={{ objectFit: 'contain', width: '90%' }} />
+                            </div>
                         </div>
                     </div>
                     <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>

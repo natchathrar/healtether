@@ -4,7 +4,7 @@ import './Blogs.css'
 export default function Blogs() {
     return (
 
-        <div>
+        <div style={{ marginTop: '200px' }}>
             <div>
                 <h1 className=' text-center' >Blogs</h1>
                 <p className=' text-center' style={{ fontSize: '25px', letterSpacing: '2px' }}>Grow your medical practice with guides & articles from the best in business</p>
@@ -31,7 +31,7 @@ export default function Blogs() {
                 </div>
                 {/* </div> */}
                 {/* <div class=" col-md-4 mt-3 col-sm-10"> */}
-                <div class="card p-4 ms-5 " style={{ maxWidth: '230px', height: '100vh' }}>
+                <div class="card p-4 ms-5 " style={{ maxWidth: '230px' }}>
                     <div className='d-flex justify-content-center'>
                         <img
                             src='https://www.paperplanetech.co/static/media/thumbnail1.a73053b54f875cdb7d19.png'

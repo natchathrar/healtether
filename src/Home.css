@@ -182,7 +182,7 @@
     margin: 0;
 }
 
- .switch-button {
+.switch-button {
     background: #c1c1c1;
     border-radius: 30px;
     color: #fff;
@@ -218,11 +218,13 @@
     -ms-user-select: none;
     /* user-select: none; */
 }
+
 .switch-button-checkbox+.switch-button-label .switch-button-label-span {
     position: relative;
 }
+
 .switch-button-checkbox+.switch-button-label:before {
-    background: linear-gradient(122.11deg,#4d63dd 35.61%,#22a1f5 94.47%);
+    background: linear-gradient(122.11deg, #4d63dd 35.61%, #22a1f5 94.47%);
     border-radius: 30px;
     content: "";
     height: 100%;
@@ -234,9 +236,10 @@
     transform: translateX(0);
     transition: -webkit-transform .3s;
     transition: transform .3s;
-    transition: transform .3s,-webkit-transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
     width: 100%;
 }
+
 input[type="checkbox" i] {
     background-color: initial;
     cursor: default;
@@ -246,6 +249,7 @@ input[type="checkbox" i] {
     padding: initial;
     border: initial;
 }
+
 .switch-button:before {
     align-items: center;
     bottom: 0;
@@ -260,8 +264,9 @@ input[type="checkbox" i] {
     width: 180px;
     z-index: 3;
 }
+
 .switch-button-checkbox+.switch-button-label:before {
-    background: linear-gradient(122.11deg,#4d63dd 35.61%,#22a1f5 94.47%);
+    background: linear-gradient(122.11deg, #4d63dd 35.61%, #22a1f5 94.47%);
     border-radius: 30px;
     content: "";
     height: 100%;
@@ -273,9 +278,10 @@ input[type="checkbox" i] {
     transform: translateX(0);
     transition: -webkit-transform .3s;
     transition: transform .3s;
-    transition: transform .3s,-webkit-transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
     width: 100%;
 }
+
 .toggle-button {
     background-color: grey;
     color: white;
@@ -287,7 +293,8 @@ input[type="checkbox" i] {
 }
 
 .toggle-button.active {
-    background: linear-gradient(to right, rgb(38 93 38), rgb(31 198 31));}
+    background: linear-gradient(to right, rgb(38 93 38), rgb(31 198 31));
+}
 
 /*
 .switch-button:active {
@@ -494,6 +501,13 @@ input[type="checkbox" i] {
     -webkit-tap-highlight-color: transparent;
 }
 
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 .MuiTypography-h1 {
     font-size: 32px;
     /* font-family: Montserrat; */
@@ -532,6 +546,7 @@ input[type="checkbox" i] {
     transform: scale(0);
     transition: transform 150ms cubic-bezier(0.4, 0, 1, 1) 0ms;
 }
+
 .MuiSvgIcon-root {
     fill: currentColor;
     width: 1em;
@@ -542,24 +557,28 @@ input[type="checkbox" i] {
     flex-shrink: 0;
     user-select: none;
 }
+
 .MuiAccordionDetails-root {
     display: flex;
     padding: 8px 16px 16px;
 }
+
 .Mui-expanded-question {
     color: green;
-  }
-  
+}
+
 .MuiAccordionSummary-root {
     display: flex;
     padding: 0px 16px;
     min-height: 48px;
-    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
+
 .MuiGrid-spacing-xs-1 {
     width: calc(100% + 8px);
     margin: -4px;
 }
+
 @media (min-width: 1000px) {
     .MuiGrid-grid-md-3 {
         flex-grow: 0;
@@ -593,6 +612,11 @@ input[type="checkbox" i] {
 
 }
 
+.MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
 
 @media (min-width: 1000px) {
     .MuiGrid-grid-md-4 {

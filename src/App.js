@@ -7,6 +7,9 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import About from "./About";
 import ABHA from "./ABHA";
+import BuyNow from "./BuyNow";
+import Login from "./Login";
+import Main from "./Main";
 
 
 function App() {
@@ -15,16 +18,19 @@ function App() {
       {/* <ChatbotComponent /> */}
       {/* <Home /> */}
       <Router>
-        <Navbar />
-
         <Routes>
-          {/* <Route path="/" element={<Navbar />}> */}
-          <Route exact path="/" element={<Home />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/abha" element={<ABHA />} />
+          <Route path="/login" element={<Login />} />
+
         </Routes>
-        <Footer />
+        <Routes>
+          <Route path="" element={<Main />} >
+            <Route exact path="/" element={<Home />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/abha" element={<ABHA />} />
+            <Route path='/bnpl' element={<BuyNow />} />
+          </Route>
+        </Routes>
       </Router>
     </div>
   );
