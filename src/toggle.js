@@ -33,6 +33,7 @@ import Slider from 'react-slick';
 import FAQAccordion from './Accordion';
 import Business from './Business';
 import './switch.css'
+import FeedbackCarousel from './carousel';
 
 const Toggle = ({ leftLabel, rightLabel }) => {
     const [toggle, setToggle] = useState(false);
@@ -129,7 +130,9 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                     </h5>
                                 </div>
                                 <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ marginTop: '2rem', padding: '10px', width: '180px' }}>
-                                    <span className="MuiButton-label text-white ms-3 me-2" style={{ fontWeight: 'bold', fontSize: '25px' }}>Start Now</span>
+                                    <span className="MuiButton-label text-white ms-3 me-2" style={{ fontWeight: 'bold', fontSize: '25px' }}
+                                        onClick={() => window.open('/start', '_blank')}
+                                    >Start Now</span>
                                     <span className="MuiTouchRipple-root"></span>
                                 </button>
                             </div>
@@ -596,7 +599,7 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                         <div>
                             <h1 className="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter">As seen on! 📰</h1>
                             <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center MuiGrid-grid-xs-12" style={{ margin: '1.5rem 0px' }}>
-                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+                                <div className="MuiGrid-root logo MuiGrid-item zoom" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
 
                                     <img src={yourstory} alt="https://yourstory.com/2022/04/bengaluru-healthtech-startup-paperplane-digital-clinics-whatsapp/amp" style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
                                     <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
@@ -606,7 +609,7 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                         <span className="MuiTouchRipple-root"></span>
                                     </button>
                                 </div>
-                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+                                <div className="MuiGrid-root logo MuiGrid-item zoom" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
                                     <img src={economic} style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
                                     <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }} >
                                         <span className="MuiIconButton-label">
@@ -615,7 +618,7 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                                         <span className="MuiTouchRipple-root"></span>
                                     </button>
                                 </div>
-                                <div className="MuiGrid-root logo MuiGrid-item" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
+                                <div className="MuiGrid-root logo MuiGrid-item zoom" style={{ padding: '2rem', margin: '2rem', borderRadius: '20px', position: 'relative' }}>
                                     <img src={ENT} alt="https://www.entrepreneur.com/article/423344" style={{ width: '200px', height: '150px', objectFit: 'contain', cursor: 'pointer' }} />
                                     <button className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall" tabIndex="0" type="button" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
                                         <span className="MuiIconButton-label">
@@ -632,29 +635,30 @@ const Toggle = ({ leftLabel, rightLabel }) => {
                             </div>
                             <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-content-xs-center" style={{ padding: '1rem' }}>
                                 <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={corner} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                    <img src={corner} alt="logo" className="logo zoom1" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={hunx} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                    <img src={hunx} alt="logo" className="logo zoom1" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={venture} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                    <img src={venture} alt="logo" className="logo zoom1" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={aws} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                    <img src={aws} alt="logo" className="logo zoom1" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4" style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={mongo} alt="logo" className="logo" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
+                                    <img src={mongo} alt="logo" className="logo zoom1" style={{ cursor: 'pointer', width: '200px', padding: '1rem', marginTop: '1rem', objectFit: 'contain' }} />
                                 </div>
                             </div>
                         </div>
+                        <FeedbackCarousel />
                         <div style={{ width: '80%', justifyContent: 'center', marginLeft: '150px' }}>
                             <div className="MuiGrid-root MuiGrid-container MuiGrid-justify-content-xs-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" style={{ marginTop: '2rem' }}>
                                 <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-11">
                                     <div style={{ padding: '2rem', background: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', borderRadius: '18px' }}>
                                         <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-center">
                                             <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-align-items-xs-flex-start MuiGrid-grid-xs-12 MuiGrid-grid-md-6">
-                                                <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '0.5rem' }}>Contact Us</h1>
+                                                <h1 className="MuiTypography-root MuiTypography-h1" style={{ marginBottom: '0.5rem' }}>Contact Us</h1><br />
                                                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'inherit', margin: '0.25rem 0px' }}>
                                                     <svg className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style={{ paddingRight: '0.5rem' }}>
                                                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>

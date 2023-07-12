@@ -26,6 +26,7 @@
     background-color: hsl(var(--ri5-color-bg-darker-hsl));
     color: white;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .radio-switch:focus-within,

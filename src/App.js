@@ -10,6 +10,7 @@ import ABHA from "./ABHA";
 import BuyNow from "./BuyNow";
 import Login from "./Login";
 import Main from "./Main";
+import Start from "./Start";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path='/start' element={<Start />} />
 
         </Routes>
         <Routes>
@@ -29,6 +31,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/abha" element={<ABHA />} />
             <Route path='/bnpl' element={<BuyNow />} />
+
           </Route>
         </Routes>
       </Router>

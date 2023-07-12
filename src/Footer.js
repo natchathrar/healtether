@@ -6,6 +6,7 @@ import HealthLogo from './Assets/images/Medical-health-logo.png'
 import Hipaa from './Assets/images/hippa.png'
 import Iso from './Assets/images/iso.png'
 import { MdOutlineCopyright } from 'react-icons/md';
+import './About.css'
 const Footer = () => {
     return (
         // <div
@@ -55,7 +56,7 @@ const Footer = () => {
                     <div className='container '>
                         <div className="row ">
                             <div className="col-sm-3 mt-5 ">
-                                <img src={HealthLogo} style={{ width: "150px", height: "35px" }} alt="Paper Plane" />
+                                <img src={HealthLogo} style={{ width: "45px", height: "45px" }} alt="Paper Plane" />
                                 <div className="mt-3">
                                     <img src={Iso} className="me-4" style={{ width: "50px", height: "50px" }} alt="ISO" />
                                     <img src={Hipaa} style={{ width: "50px", height: "50px" }} alt="HIPAA" />
@@ -79,7 +80,7 @@ const Footer = () => {
                         <div className='d-flex mt-4'>
                             <p className='text-primary'><span><MdOutlineCopyright /> </span ><span className='text-secondary'>Copyright 2023 Paperplane Communications Pvt. Ltd.    All Rights Reserved</span></p>
 
-                            <h4 className='d-flex text-end ms-auto fs-2 text-primary mb-3'><TiSocialLinkedinCircular /><TiSocialFacebookCircular /> <TiSocialTwitterCircular /> <TiSocialInstagramCircular /></h4>
+                            <h4 className='d-flex ms-auto fs-2 text-primary mb-3' style={{ justifyContent: 'flex-end' }}><TiSocialLinkedinCircular /><TiSocialFacebookCircular /> <TiSocialTwitterCircular /> <TiSocialInstagramCircular /></h4>
 
                         </div>
                     </div>
