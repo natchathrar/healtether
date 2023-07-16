@@ -38,48 +38,56 @@ function Business() {
     return (
         <div>
             <div className="content-business">
-                <div className="MuiGrid-root MuiGrid-item ms-5 mt-5">
-                    <div className=' d-block'>
-                        <div className='' style={{ marginLeft: '-600px' }}>
-                            <h5 className="MuiTypography-root MuiTypography-h5" style={{ fontWeight: '500', fontFamily: 'Montserrat' }}><span style={{ fontWeight: '600' }}>Paperplane</span>
-                                <span style={{ padding: '0.5rem', background: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', color: 'rgb(255, 255, 255)', marginLeft: '0.5rem', borderRadius: '11px', lineHeight: '10px' }}>Enterprise</span><br />Right for 👉</h5>
-                            <div className='mb-5'>
-                                <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabIndex="0" type="button" style={{ margin: '2rem 0rem', height: '50px' }}>
-                                    <span className="MuiButton-label fw-bold p-2 ms-3 me-2 text-white" >Book a demo</span><span className="MuiTouchRipple-root"></span></button></div>
-                        </div>
-                        <div className='d-flex justify-content-center' style={{ marginTop: '-253px', marginLeft: '300px' }}>
-                            <div style={{ width: '200px', height: '200px', margin: '1.6rem 0.4rem', background: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px', borderRadius: '18px', display: 'flex', flexDirection: 'column' }}>
-                                <div style={{ background: 'rgba(161, 176, 255, 0.5)', textAlign: 'center', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
-                                    <img src={hospital} alt='.' height={'120px'} width={'120px'} style={{ padding: '10px' }} />
-
+                <div className="MuiGrid-root MuiGrid-item  mt-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 col-md-8 col-sm-10 ml-auto mr-auto">
+                                <h5 className="font-weight-bold text-center" style={{ fontFamily: 'Montserrat' }}>
+                                    <span style={{ fontWeight: '600' }}>Paperplane</span>
+                                    <span className="px-2" style={{ background: 'linear-gradient(116.34deg, rgb(25, 188, 204) 24.17%, rgb(31, 212, 163) 123.73%)', color: 'rgb(255, 255, 255)', borderRadius: '11px', lineHeight: '10px', fontFamily: 'Montserrat' }}>
+                                        Enterprise
+                                    </span>
+                                    <br />Right for 👉
+                                </h5>
+                                <div className="text-center">
+                                    <button className="btn btn-primary mt-4" style={{ height: '50px' }}>
+                                        <span className="fw-bold px-2 ms-3">Book a demo</span>
+                                    </button>
                                 </div>
-                                <div style={{ padding: '0.5rem', height: 'inherit', alignItems: 'center', justifyContent: 'center', display: 'flex' }}>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter" style={{ fontWeight: '700' }}>Hospital</h6>
-                                </div>
-                            </div>
-                            <div>
-                                <div style={{ width: '200px', height: '200px', margin: '1.6rem 0.4rem', background: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px', borderRadius: '18px', display: 'flex', flexDirection: 'column' }}>
-                                    <div style={{ background: 'rgba(161, 176, 255, 0.5)', textAlign: 'center', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
-                                        <img src={polyclinic} alt='.' height={'120px'} width={'120px'} style={{ padding: '10px' }} />
-
-                                    </div>
-                                    <div style={{ padding: '0.5rem', height: 'inherit', alignItems: 'center', justifyContent: 'center', display: 'flex' }}>
-                                        <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter" style={{ fontWeight: '700' }}>Polyclinic</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div style={{ width: '200px', height: '200px', margin: '1.6rem 0.4rem', background: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px', borderRadius: '18px', display: 'flex', flexDirection: 'column' }}>
-                                    <div style={{ background: 'rgba(161, 176, 255, 0.5)', textAlign: 'center', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
-                                        <img src={pharmacy} alt='.' height={'120px'} width={'120px'} style={{ padding: '10px' }} />
-
-                                    </div>
-                                    <div style={{ padding: '0.5rem', height: 'inherit', alignItems: 'center', justifyContent: 'center', display: 'flex' }}>
-                                        <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter" style={{ fontWeight: '700' }}>Pharmacy</h6>
-                                    </div></div>
                             </div>
                         </div>
-
+                        <div className="row justify-content-center mt-5">
+                            <div className="col-lg-3 col-md-4 col-sm-6">
+                                <div className="card h-100" style={{ borderRadius: '18px', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px' }}>
+                                    <div className="card-body d-flex flex-column justify-content-center" style={{ background: 'rgba(161, 176, 255, 0.5)', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
+                                        <img src={hospital} alt="Hospital" className="mx-auto d-block" style={{ height: '120px', width: '120px' }} />
+                                    </div>
+                                    <div className="card-footer d-flex align-items-center justify-content-center" style={{ padding: '0.5rem' }}>
+                                        <h6 className="font-weight-bold text-center" style={{ fontFamily: 'Montserrat' }}>Hospital</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-6">
+                                <div className="card h-100" style={{ borderRadius: '18px', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px' }}>
+                                    <div className="card-body d-flex flex-column justify-content-center" style={{ background: 'rgba(161, 176, 255, 0.5)', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
+                                        <img src={polyclinic} alt="Polyclinic" className="mx-auto d-block" style={{ height: '120px', width: '120px' }} />
+                                    </div>
+                                    <div className="card-footer d-flex align-items-center justify-content-center" style={{ padding: '0.5rem' }}>
+                                        <h6 className="font-weight-bold text-center" style={{ fontFamily: 'Montserrat' }}>Polyclinic</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-6">
+                                <div className="card h-100" style={{ borderRadius: '18px', boxShadow: 'rgba(0, 0, 0, 0.18) 0px 4px 20px' }}>
+                                    <div className="card-body d-flex flex-column justify-content-center" style={{ background: 'rgba(161, 176, 255, 0.5)', borderRadius: '18px 18px 0px 0px', padding: '1rem' }}>
+                                        <img src={pharmacy} alt="Pharmacy" className="mx-auto d-block" style={{ height: '120px', width: '120px' }} />
+                                    </div>
+                                    <div className="card-footer d-flex align-items-center justify-content-center" style={{ padding: '0.5rem' }}>
+                                        <h6 className="font-weight-bold text-center" style={{ fontFamily: 'Montserrat' }}>Pharmacy</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className='row p-3'>
                         <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center" style={{ margin: '3rem 0px' }}>

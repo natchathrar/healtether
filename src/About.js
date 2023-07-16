@@ -15,7 +15,7 @@ function About() {
     return (
         <div>
 
-            <div className='centerformation text-center ' style={{ marginTop: '150px' }}>
+            <div className='centerformation text-center '>
                 <div className=' mt-5'>
                     <div className='text-center'>
                         <h1 className='text-decoration-underlines  '>Our Vision. <span className='text-primary'>Our Mission</span></h1>

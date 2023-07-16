@@ -16,3 +16,15 @@
     border: 0px;
     /* background: #8e8a8a; */
 }
+
+@media (min-width: 992px) {
+    .card1 {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}

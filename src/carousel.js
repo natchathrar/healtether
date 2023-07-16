@@ -21,174 +21,198 @@ function FeedbackCarousel() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
             },
         ],
     };
 
     return (
-        <div className="feedback-carousel-container" style={{ padding: '3% 10%' }}>
+        <div className="feedback-carousel-container" >
             <Slider {...settings}>
-                <div>
-
-                    <div style={{ padding: '1rem', marginBottom: '2rem' }}>
-                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-space-between" style={{ height: '500px', lineHeight: '35px', padding: '2rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex  align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 col-sm-12">
                                 <img src={quote} alt="quote" />
                             </div>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10">
-                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >
-                                    <span style={{ fontSize: '20px' }}>Paperplane WhatsApp Clinic assist me to create my own <span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}>social media brand. </span>I can provide my patients with the best care by sending them<span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}> personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.</span>
+                            <div className="col-12 col-sm-12">
+                                <h6 className="type6" style={{ lineHeight: '' }}>
+                                    Paperplane WhatsApp Clinic assist me to create my own{' '}
+                                    <span className="text-primary">social media brand.</span> I can provide my
+                                    patients with the best care by sending them{' '}
+                                    <span className="text-primary">personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.
                                 </h6>
                             </div>
-                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center" style={{ flexWrap: 'nowrap' }}>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <img src={viral} alt="Dr. Mohita Mehrotra" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
-                                </div>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <h5 className="MuiTypography-root MuiTypography-h5" >Dr. Paramjit sing Juneja</h5>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >Growing Smiles, Uttar Pradesh</h6>
-                                    <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall" tabIndex="0" type="button" style={{ background: 'rgb(37, 211, 102)', color: 'white', marginTop: '1rem' }}>
-                                        <span className="MuiButton-label">
-                                            <span className="MuiButton-startIcon MuiButton-iconSizeSmall"><i className="fa-brands fa-whatsapp"></i></span>TRY NOW !
-                                        </span>
-                                        <span className="MuiTouchRipple-root"></span>
-                                    </button>
+                            <div className="col-12 ">
+                                <div className="d-flex align-items-center">
+                                    <img src={viral} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Paramjit Singh Juneja</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div>
-
-                    <div style={{ padding: '1rem', marginBottom: '2rem' }}>
-                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-space-between" style={{ height: '500px', lineHeight: '35px', padding: '2rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex flex-row align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 ">
                                 <img src={quote} alt="quote" />
                             </div>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10">
-                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >
-                                    <span>Paperplane WhatsApp Clinic assist me to create my own <span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}>social media brand. </span>I can provide my patients with the best care by sending them<span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}> personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.</span>
+                            <div className="col-12 ">
+
+                                <h6 className="type6" style={{ lineHeight: '' }}>
+                                    Paperplane provides a{' '}
+                                    <span className="text-primary">smooth digital prescription writing</span>interface and I can directly share all those{' '}
+                                    <span className="text-primary">prescriptions over WhatsApp </span> to give my patients a
+                                    <span className="text-primary">seamless consultation experience!</span>
                                 </h6>
                             </div>
-                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center" style={{ flexWrap: 'nowrap' }}>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <img src={mohita} alt="Dr. Mohita Mehrotra" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
-                                </div>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <h5 className="MuiTypography-root MuiTypography-h5" >Dr. Mohita Mehrotra</h5>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >Growing Smiles, Uttar Pradesh</h6>
-                                    <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall" tabIndex="0" type="button" style={{ background: 'rgb(37, 211, 102)', color: 'white', marginTop: '1rem' }}>
-                                        <span className="MuiButton-label">
-                                            <span className="MuiButton-startIcon MuiButton-iconSizeSmall"><i className="fa-brands fa-whatsapp"></i></span>TRY NOW !
-                                        </span>
-                                        <span className="MuiTouchRipple-root"></span>
-                                    </button>
+                            <div className="col-12">
+                                <div className="d-flex align-items-center">
+                                    <img src={dharman} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Naman Kanodia</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div>
-
-                    <div style={{ padding: '1rem', marginBottom: '2rem' }}>
-                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-space-between" style={{ height: '500px', lineHeight: '35px', padding: '2rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex flex-row align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 ">
                                 <img src={quote} alt="quote" />
                             </div>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10">
-                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >
-                                    <span>Paperplane WhatsApp Clinic assist me to create my own <span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}>social media brand. </span>I can provide my patients with the best care by sending them<span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}> personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.</span>
+                            <div className="col-12 ">
+                                <h6 className="type6" style={{ lineHeight: '' }}>
+                                    Paperplane WhatsApp Clinic assist me to create my own{' '}
+                                    <span className="text-primary">social media brand.</span> I can provide my
+                                    patients with the best care by sending them{' '}
+                                    <span className="text-primary">personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.
                                 </h6>
                             </div>
-                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center" style={{ flexWrap: 'nowrap' }}>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <img src={viral} alt="Dr. Mohita Mehrotra" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
-                                </div>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <h5 className="MuiTypography-root MuiTypography-h5" >Dr. Viralsinhraj</h5>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >Growing Smiles, Uttar Pradesh</h6>
-                                    <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall" tabIndex="0" type="button" style={{ background: 'rgb(37, 211, 102)', color: 'white', marginTop: '1rem' }}>
-                                        <span className="MuiButton-label">
-                                            <span className="MuiButton-startIcon MuiButton-iconSizeSmall"><i className="fa-brands fa-whatsapp"></i></span>TRY NOW !
-                                        </span>
-                                        <span className="MuiTouchRipple-root"></span>
-                                    </button>
+                            <div className="col-12">
+                                <div className="d-flex align-items-center">
+                                    <img src={mohita} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Mohita Mehrotra</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div>
 
-                    <div style={{ padding: '1rem', marginBottom: '2rem' }}>
-                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-space-between" style={{ height: '500px', lineHeight: '35px', padding: '2rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex flex-row align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 ">
                                 <img src={quote} alt="quote" />
                             </div>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10">
-                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >
-                                    <span>Paperplane WhatsApp Clinic assist me to create my own <span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}>social media brand. </span>I can provide my patients with the best care by sending them<span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}> personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.</span>
+                            <div className="col-12 ">
+
+                                <h6 className="type6" style={{ lineHeight: '' }}>{' '}
+                                    <span className="text-primary">Website delivery was super fast</span>adding on to which my{' '}
+                                    <span className="text-primary">Paperplane's WhatsApp Assistant</span> never forgets to send follow up reminders to my patients so they never miss out on any vaccination.
                                 </h6>
                             </div>
-                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center" style={{ flexWrap: 'nowrap' }}>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <img src={dharman} alt="Dr. Mohita Mehrotra" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
-                                </div>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <h5 className="MuiTypography-root MuiTypography-h5" >Dr. Naman Kanodia</h5>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >Growing Smiles, Uttar Pradesh</h6>
-                                    <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall" tabIndex="0" type="button" style={{ background: 'rgb(37, 211, 102)', color: 'white', marginTop: '1rem' }}>
-                                        <span className="MuiButton-label">
-                                            <span className="MuiButton-startIcon MuiButton-iconSizeSmall"><i className="fa-brands fa-whatsapp"></i></span>TRY NOW !
-                                        </span>
-                                        <span className="MuiTouchRipple-root"></span>
-                                    </button>
+                            <div className="col-12">
+                                <div className="d-flex align-items-center">
+                                    <img src={viral} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Viralsinhraj</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div>
 
-                    <div style={{ padding: '1rem', marginBottom: '2rem' }}>
-                        <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-content-xs-space-between" style={{ height: '500px', lineHeight: '35px', padding: '2rem', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex flex-row align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 ">
                                 <img src={quote} alt="quote" />
                             </div>
-                            <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10">
-                                <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >
-                                    <span>Paperplane WhatsApp Clinic assist me to create my own <span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}>social media brand. </span>I can provide my patients with the best care by sending them<span style={{ color: 'rgb(77, 99, 221)', fontWeight: '900' }}> personalised and automated medicine &amp; follow-up reminders</span> while maintaining a proper patient database on my mobile phone itself.</span>
+                            <div className="col-12 ">
+
+                                <h6 className="type6" style={{ lineHeight: '' }}>
+                                    Paperplane provides a{' '}
+                                    <span className="text-primary">smooth digital prescription writing</span>interface and I can directly share all those{' '}
+                                    <span className="text-primary">prescriptions over WhatsApp </span> to give my patients a
+                                    <span className="text-primary">seamless consultation experience!</span>
                                 </h6>
                             </div>
-                            <div className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center" style={{ flexWrap: 'nowrap' }}>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <img src={sing} alt="Dr. Mohita Mehrotra" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
-                                </div>
-                                <div className="MuiGrid-root MuiGrid-item">
-                                    <h5 className="MuiTypography-root MuiTypography-h5" >Dr. Paramjit sing Juneja</h5>
-                                    <h6 className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary" >Growing Smiles, Uttar Pradesh</h6>
-                                    <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall" tabIndex="0" type="button" style={{ background: 'rgb(37, 211, 102)', color: 'white', marginTop: '1rem' }}>
-                                        <span className="MuiButton-label">
-                                            <span className="MuiButton-startIcon MuiButton-iconSizeSmall"><i className="fa-brands fa-whatsapp"></i></span>TRY NOW !
-                                        </span>
-                                        <span className="MuiTouchRipple-root"></span>
-                                    </button>
+                            <div className="col-12">
+                                <div className="d-flex align-items-center">
+                                    <img src={dharman} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Naman Kanodia</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-            </Slider>
-        </div>
+                <div className='caru'>
+                    <div className="p-3 mb-2">
+                        <div className="row p-3 d-flex flex-row align-items-center" style={{ minHeight: '500px', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 20px', background: 'rgb(255, 255, 255)', textAlign: 'left', borderRadius: '14px' }}>
+                            <div className="col-12 ">
+                                <img src={quote} alt="quote" />
+                            </div>
+                            <div className="col-12 ">
+
+                                <h6 className="type6" style={{ lineHeight: '' }}>
+                                    I can manage patients from{' '}
+                                    <span className="text-primary">multiple offline clinics</span>through Paperplane WhatsApp Clinic and also{' '}
+                                    <span className="text-primary">start my own teleconsultation  &amp; follow-up reminders</span> service for reaching out to patients<span className="text-primary">Pan India.</span>
+                                </h6>
+                            </div>
+                            <div className="col-12">
+                                <div className="d-flex align-items-center">
+                                    <img src={sing} alt="Dr. Paramjit Singh Juneja" style={{ height: '100px', width: '100px', borderRadius: '50%', marginRight: '1rem' }} />
+                                    <div>
+                                        <h5 className="font-weight-bold">Dr. Paramjit sing Juneja</h5>
+                                        <h6 className="type6">Growing Smiles, Uttar Pradesh</h6>
+                                        <button className="btn btn-success  rounded-pill btn-sm mt-3">
+                                            <i className="fab fa-whatsapp mr-1"></i>TRY NOW !
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </Slider >
+        </div >
     );
 }
 

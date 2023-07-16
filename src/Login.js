@@ -106,7 +106,7 @@ export default function Login() {
                                                     </button>
                                                 </div> */}
                                                 <div className="text-center">
-                                                    <button type="button " className="my-4 p-3 btn btn-primary btn-block form-control">Login</button>
+                                                    <button type="button " className="my-4 p-3 bookbtn btn-primary btn-block form-control">Login</button>
                                                 </div>
                                             </form>
                                             <div>

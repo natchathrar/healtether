@@ -5,10 +5,20 @@
 .headings {
     background: rgb(85 170 67);
     max-height: 70px;
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
     z-index: 96;
     position: fixed;
     top: 0px;
+}
+
+.green_button {
+    color: #fff;
+    font-size: 23px;
+    background: linear-gradient(to right, rgb(38 93 38), rgb(31 198 31));
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%);
+    border-radius: 30px;
+    border: none;
+    background-color: #e0e0e0;
 }
 
 .nav-item:active {
@@ -22,16 +32,17 @@
     line-height: 28px;
 }
 
+/* 
 .first {
     margin: 10rem 0px 3rem;
-    padding: 3% 8%;
-}
+    padding: 50px 60px;
+} */
 
-.imgstyle {
+/* .imgstyle {
     object-fit: contain;
     width: 95%;
     margin-bottom: 1rem;
-}
+} */
 
 .menu {
     top: 3rem;
@@ -95,6 +106,16 @@
 }
 
 .MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 23px;
+    background: linear-gradient(to right, rgb(38 93 38), rgb(31 198 31));
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%);
+    border-radius: 30px;
+    border: none;
+    background-color: #e0e0e0;
+}
+
+.book_button {
     color: rgba(0, 0, 0, 0.87);
     font-size: 23px;
     background: linear-gradient(to right, rgb(38 93 38), rgb(31 198 31));
@@ -563,14 +584,12 @@ input[type="checkbox" i] {
     padding: 8px 16px 16px;
 }
 
-.Mui-expanded-question {
+.expanded-question {
     color: green;
 }
 
-.MuiAccordionSummary-root {
-    display: flex;
-    padding: 0px 16px;
-    min-height: 48px;
+.accordion-color {
+
     transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
@@ -583,9 +602,9 @@ input[type="checkbox" i] {
     padding: 50px;
     /* background-color: lightgrey; */
     transition: transform .3s;
-    width: 280px;
-    height: 200px;
-    margin: 0 auto;
+    width: 240px;
+    height: 180px;
+    margin: auto auto;
     border-radius: 10px
 }
 

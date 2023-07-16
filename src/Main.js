@@ -7,7 +7,7 @@ export default function Main() {
     return (
         <div>
             <Navbar />
-            <div className='container-fluid p-0'>
+            <div className='container-fluid p-0' style={{ margin: '10rem 0px 3rem', }}>
                 <Outlet />
             </div>
             <Footer />

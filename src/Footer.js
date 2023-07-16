@@ -49,7 +49,7 @@ const Footer = () => {
         //     </div>
         // </div>
         <div
-            className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-space-between"
+            className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-space-between "
             style={{ padding: '3% 8%', bottom: '0px', minHeight: '40vh', background: 'rgb(242, 242, 242)' }}>
             <footer >
                 <div className="container-fluid bg-footer">
