@@ -8,11 +8,6 @@
     margin-top: 40px;
 }
 
-/* .first {
-    margin: 10rem 0px 3rem;
-    padding: 50px 60px;
-} */
-
 .counterSpan {
     -webkit-text-fill-color: transparent;
     /* background: linear-gradient(122.11deg, #4d63dd 35.61%, #22a1f5 94.47%); */
@@ -171,16 +166,16 @@ input {
         flex-direction: column;
     }
 
-    .imgstyle {
+    /* .imgstyle {
         object-fit: contain;
-        width: 250px;
-        height: 200px;
+        width: 300px;
+        height: 100px;
         margin-bottom: 1rem;
-    }
+    } */
 
     .first {
         margin: 10rem 0px 3rem;
-        /* padding: 50px 60px; */
+        padding: 0;
     }
 
 }

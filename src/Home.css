@@ -32,17 +32,16 @@
     line-height: 28px;
 }
 
-/* 
 .first {
     margin: 10rem 0px 3rem;
     padding: 50px 60px;
-} */
+}
 
-/* .imgstyle {
+.imgstyle {
     object-fit: contain;
     width: 95%;
     margin-bottom: 1rem;
-} */
+}
 
 .menu {
     top: 3rem;

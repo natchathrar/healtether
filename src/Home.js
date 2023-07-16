@@ -168,9 +168,9 @@ export default function Home() {
 
     return (
         <div>
-            <div className='row first d-flex' style={{ padding: '3% 8%' }}>
-                <div className='col-sm-6 col-md-6 order-md-last '>
-                    <img className='imgstyle' src='https://www.paperplanetech.co/static/media/hero-image.2f231d9891424705d6d5129e181acf92.svg' alt='alter' />
+            <div className='row first d-flex'>
+                <div className='col-sm-6 col-md-6 order-md-last'>
+                    <img className='img-fluid' src='https://www.paperplanetech.co/static/media/hero-image.2f231d9891424705d6d5129e181acf92.svg' alt='alter' />
                 </div>
                 <div className='col-sm-6 col-md-6'>
                     <div className='h1' style={{ wordBreak: 'break-word', padding: '10px' }}>
